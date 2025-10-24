@@ -2,173 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LOCAL MILES | Hazaribagh Run & Multi-Sport Club</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>LOCAL MILES | Hazaribagh's Urban Run & Movement Club</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <header class="hero" id="top">
-      <nav class="navbar">
-        <div class="logo">LOCAL MILES</div>
-        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#vision">Our Vision</a></li>
-          <li><a href="#join">Join Us</a></li>
-        </ul>
-      </nav>
-      <div class="hero-content">
-        <span class="tag">Hazaribagh, Jharkhand</span>
-        <h1>Run today, build tomorrow.</h1>
-        <p>
-          LOCAL MILES is a community-first run club getting Hazaribagh moving. We
-          start with the streets, but we’re gearing up to explore every sport the
-          city craves.
-        </p>
-        <a href="#join" class="cta">Register for Free</a>
-      </div>
-    </header>
-
-    <main>
-      <section class="about" id="about">
-        <div class="content">
-          <h2>Who we are</h2>
-          <p>
-            We’re neighbours, colleagues, students, and dreamers united by a
-            single idea: fitness should feel like home. From early jogs around
-            Canary Hill to evening cooldowns by the dams, LOCAL MILES is weaving
-            a culture of movement across Hazaribagh.
-          </p>
-          <p>
-            Every session is designed to be welcoming—whether you’re lacing up
-            for the first time or chasing a new personal best. With a growing
-            crew of volunteers, we share routes, pace each other, and celebrate
-            every finish line.
-          </p>
-        </div>
-        <div class="stats">
-          <div class="stat-card">
-            <span class="number">2024</span>
-            <span class="label">Founded</span>
-          </div>
-          <div class="stat-card">
-            <span class="number">100%</span>
-            <span class="label">Community-led</span>
-          </div>
-          <div class="stat-card">
-            <span class="number">0₹</span>
-            <span class="label">Membership fee</span>
-          </div>
-        </div>
-      </section>
-
-      <section class="vision" id="vision">
-        <div class="vision-grid">
-          <div class="vision-card">
-            <h3>Run club roots</h3>
-            <p>
-              Sunrise tempo runs, technique workshops, trail explorations—we’re
-              curating experiences that showcase Hazaribagh’s terrain.
-            </p>
-          </div>
-          <div class="vision-card">
-            <h3>Future sports hub</h3>
-            <p>
-              Cycling loops, swim squads, strength circuits. We’re building a
-              platform that adapts with the ambitions of our community.
-            </p>
-          </div>
-          <div class="vision-card">
-            <h3>City-first energy</h3>
-            <p>
-              From heritage walks to pop-up wellness meets, LOCAL MILES is a
-              movement for vibrant, urban living in Hazaribagh.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="join" id="join">
-        <div class="join-text">
-          <h2>Join the miles</h2>
-          <p>
-            Sign up for our free sessions, get early updates on new sports, and
-            help shape the club from day one.
-          </p>
-          <ul>
-            <li>Weekly group runs and recovery hangs</li>
-            <li>Community-led training plans and accountability</li>
-            <li>Access to pilot programs for upcoming sports</li>
-          </ul>
-        </div>
-        <form class="join-form">
-          <h3>Free registration</h3>
-          <label for="name">Full name</label>
-          <input id="name" name="name" type="text" placeholder="Your name" required />
-
-          <label for="email">Email</label>
-          <input
-            id="email"
-            name="email"
-            type="email"
-            placeholder="you@example.com"
-            required
-          />
-
-          <label for="phone">Phone</label>
-          <input
-            id="phone"
-            name="phone"
-            type="tel"
-            placeholder="WhatsApp number"
-          />
-
-          <label for="interest">Interested sport</label>
-          <select id="interest" name="interest">
-            <option value="running">Running</option>
-            <option value="cycling">Cycling</option>
-            <option value="swimming">Swimming</option>
-            <option value="strength">Strength & Conditioning</option>
-            <option value="other">Open to anything!</option>
-          </select>
-
-          <label for="message">Tell us about your goals</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="3"
-            placeholder="Training for a 10K? Want to explore new sports?"
-          ></textarea>
-
-          <button type="submit">Submit</button>
-          <p class="form-note">We’ll respond within 48 hours. No spam, ever.</p>
-        </form>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="footer-content">
-        <div>
-          <div class="logo">LOCAL MILES</div>
-          <p>
-            An urban movement born in Hazaribagh, building inclusive spaces for
-            running and every sport that follows.
-          </p>
-        </div>
-        <div class="footer-links">
-          <a href="mailto:hello@localmiles.in">hello@localmiles.in</a>
-          <a href="tel:+919999999999">+91 99999 99999</a>
-          <a href="#top">Back to top</a>
-        </div>
-      </div>
-      <p class="copyright">© 2024 LOCAL MILES. All rights reserved.</p>
-    </footer>
-    <script src="main.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
