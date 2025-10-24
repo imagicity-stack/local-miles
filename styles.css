@@ -1,0 +1,394 @@
+:root {
+  --orange: #ff6f3c;
+  --orange-dark: #e65c2b;
+  --bg: #ffffff;
+  --text: #1f1f1f;
+  --muted: #6f6f6f;
+  --shadow: 0 25px 50px -20px rgba(255, 111, 60, 0.35);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Urbanist', 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.hero {
+  position: relative;
+  min-height: 100vh;
+  padding: 1.5rem clamp(1.5rem, 5vw, 4rem) 4rem;
+  background: linear-gradient(135deg, rgba(255, 111, 60, 0.95), rgba(255, 111, 60, 0.65)),
+    url('https://images.unsplash.com/photo-1517832207067-4db24a2ae47c?auto=format&fit=crop&w=1600&q=80')
+      center/cover;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 1.75rem;
+  background: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  opacity: 0.75;
+}
+
+.hero-content {
+  margin-top: auto;
+  max-width: 540px;
+}
+
+.hero-content .tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  backdrop-filter: blur(6px);
+}
+
+.hero-content h1 {
+  font-size: clamp(2.75rem, 5vw, 4.5rem);
+  line-height: 1.05;
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.95;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  color: var(--orange);
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cta:hover,
+.cta:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 35px -20px rgba(31, 31, 31, 0.45);
+}
+
+main {
+  background: #fff;
+  margin-top: -3rem;
+  border-radius: 2rem 2rem 0 0;
+  padding: clamp(2rem, 5vw, 4rem);
+}
+
+.about {
+  display: grid;
+  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  align-items: start;
+}
+
+.about .content h2 {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  margin-bottom: 1.5rem;
+}
+
+.about .content p + p {
+  margin-top: 1rem;
+}
+
+.stats {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.stat-card {
+  background: #fff6f1;
+  padding: 1.75rem;
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.stat-card .number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--orange);
+}
+
+.stat-card .label {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.vision {
+  margin-top: clamp(3rem, 6vw, 5rem);
+}
+
+.vision-grid {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.vision-card {
+  padding: 2rem;
+  border-radius: 1.5rem;
+  background: #fff6f1;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: var(--shadow);
+}
+
+.vision-card h3 {
+  font-size: 1.4rem;
+}
+
+.vision-card p {
+  color: var(--muted);
+}
+
+.join {
+  margin-top: clamp(3rem, 6vw, 5rem);
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  align-items: start;
+}
+
+.join-text h2 {
+  font-size: clamp(2rem, 3vw, 2.75rem);
+  margin-bottom: 1rem;
+}
+
+.join-text ul {
+  margin-top: 1.25rem;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.join-text li {
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.join-text li::before {
+  content: '▹';
+  position: absolute;
+  left: 0;
+  color: var(--orange);
+}
+
+.join-form {
+  background: #fff;
+  padding: 2.5rem;
+  border-radius: 1.5rem;
+  box-shadow: var(--shadow);
+  display: grid;
+  gap: 1rem;
+}
+
+.join-form h3 {
+  font-size: 1.6rem;
+}
+
+.join-form label {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.join-form input,
+.join-form select,
+.join-form textarea {
+  width: 100%;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 0.9rem;
+  font-family: inherit;
+  font-size: 1rem;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.join-form input:focus,
+.join-form select:focus,
+.join-form textarea:focus {
+  outline: none;
+  border-color: var(--orange);
+  box-shadow: 0 0 0 4px rgba(255, 111, 60, 0.15);
+}
+
+.join-form button {
+  margin-top: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  background: var(--orange);
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.join-form button:hover,
+.join-form button:focus {
+  background: var(--orange-dark);
+  transform: translateY(-1px);
+}
+
+.form-note {
+  font-size: 0.85rem;
+  color: var(--muted);
+  text-align: center;
+}
+
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 3rem clamp(1.5rem, 5vw, 4rem);
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer .logo {
+  letter-spacing: 0.25rem;
+}
+
+.footer p {
+  max-width: 420px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-links {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.footer-links a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #fff;
+}
+
+.footer a[href="#top"] {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.15rem;
+}
+
+.footer-content + p {
+  margin-top: 2.5rem;
+  font-size: 0.85rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    inset: 70px clamp(1.5rem, 5vw, 4rem) auto;
+    background: rgba(17, 17, 17, 0.9);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .hero {
+    padding-bottom: 5rem;
+  }
+
+  main {
+    margin-top: -2rem;
+    border-radius: 1.5rem 1.5rem 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
