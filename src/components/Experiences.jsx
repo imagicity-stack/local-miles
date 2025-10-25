@@ -1,31 +1,31 @@
 const experiences = [
   {
-    title: 'Urban Tempo',
+    title: 'Metro Pulse Run',
     description:
-      'A guided run weaving through the new ring road murals with audio cues and pacers for every group.'
+      'A guided night run threading mural alleys with synced light cues, local DJs, and pace teams for every crew.'
   },
   {
-    title: 'Trail Switchbacks',
+    title: 'Flyover Switchbacks',
     description:
-      'Weekend exploration of Canary Hill and Sal forests with mindful downhill drills and breakfast finish.'
+      'Weekend climbs along Kallu Chowk flyovers with mobility resets on rooftops and chai refuels at dawn.'
   },
   {
-    title: 'Strength Under Flyover',
+    title: 'Warehouse Power Lab',
     description:
-      'Pop-up strength circuit beneath the Kallu Chowk flyover featuring resistance bands, kettlebells, and music.'
+      'Pop-up strength circuit inside an industrial bay with modular rigs, heavy beats, and recovery corners.'
   }
 ];
 
 const spotlights = [
   {
-    name: 'Riya • Design student',
+    name: 'Riya • Visual designer',
     quote:
-      '“I joined LOCAL MILES for the Saturday runs and stayed for the creative people and the confidence the workouts built.”'
+      '“FLIHYE feels like stepping into a live installation. The runs are inclusive, the playlists are wild, and the confidence sticks.”'
   },
   {
-    name: 'Sameer • Entrepreneur',
+    name: 'Sameer • Founder & rider',
     quote:
-      '“The crew blends serious training with a chilled vibe. The planned cycling routes will be a game changer.”'
+      '“Every ride hits different—the crew balances discipline with street creativity. The hybrid sessions keep my hustle sharp.”'
   }
 ];
 
@@ -38,9 +38,9 @@ export default function Experiences() {
             <span className="section-heading">Experiences</span>
             <h2 className="section-title">Moments that keep you moving</h2>
             <p className="section-description">
-              Our sessions mix structured training with the raw edges of Hazaribagh—graffiti
-              walls, campus tracks, forest climbs. You&apos;ll meet mentors, creatives, and
-              first-time runners, all pushing forward together.
+              Every FLIHYE drop pulses with city texture—graffiti corridors, campus rooftops,
+              forest edges. You&apos;ll find mentors, musicians, and first-time movers sharing
+              the same wild ambition to keep Hazaribagh in motion.
             </p>
             <div className="card-grid cols-2 experience-list">
               {experiences.map((experience) => (

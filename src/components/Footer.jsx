@@ -5,20 +5,21 @@ export default function Footer() {
     <footer className="footer">
       <div className="container footer-grid">
         <div>
-          <a href="#top" className="logo" aria-label="LOCAL MILES home">
-            <span>LOCAL</span>
-            <span>MILES</span>
+          <a href="#top" className="logo" aria-label="FLIHYE home">
+            <span>FLI</span>
+            <span>HYE</span>
           </a>
           <p>
-            Built by locals for Hazaribagh. We believe in accessible movement, mindful
-            training, and celebrating every finish line.
+            Made in Hazaribagh for the movers shaping what&apos;s next. We stand for
+            accessible training, fearless creativity, and celebrations that spill into the
+            streets.
           </p>
         </div>
         <div>
           <h4>Connect</h4>
           <ul>
             <li>
-              <a href="mailto:hello@localmiles.club">hello@localmiles.club</a>
+              <a href="mailto:hey@flihye.club">hey@flihye.club</a>
             </li>
             <li>
               <a href="https://instagram.com" target="_blank" rel="noreferrer">
@@ -35,13 +36,13 @@ export default function Footer() {
         <div>
           <h4>Upcoming</h4>
           <ul>
-            <li>Ride pilots • Winter 2024</li>
-            <li>Strength pods • Early 2025</li>
-            <li>Trail residencies • Coming soon</li>
+            <li>Chrome Ride Residency • Winter 2024</li>
+            <li>Warehouse Power Lab • Early 2025</li>
+            <li>Underpass Art Run • Coming soon</li>
           </ul>
         </div>
       </div>
-      <div className="footer-bottom">© {year} LOCAL MILES. All passion, no paywall.</div>
+      <div className="footer-bottom">© {year} FLIHYE. All heart, no gatekeeping.</div>
     </footer>
   );
 }

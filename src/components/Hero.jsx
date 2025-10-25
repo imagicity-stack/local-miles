@@ -10,39 +10,39 @@ export default function Hero() {
     <section id="top" className="hero">
       <div className="container hero-content">
         <div className="hero-copy">
-          <div className="tag-pill">Hazaribagh • Movement for everyone</div>
+          <div className="tag-pill">Hazaribagh • Future-forward street movement</div>
           <h1>
-            Local energy. <span>Limitless miles.</span>
+            FLIHYE owns the blocks. <span>You own the motion.</span>
           </h1>
           <p>
-            LOCAL MILES is Hazaribagh’s new urban run club evolving into a multi-sport
-            collective. We’re creating welcoming routes, strength corners, and trail
-            escapes so you can move your way—run, ride, or roll.
+            FLIHYE is Hazaribagh’s urban culture club for runners, riders, and strength
+            seekers. We remix city grids, neon nights, and rooftop resets so every
+            session feels like a drop — no matter your pace or playground.
           </p>
           <div className="hero-actions">
             <a className="cta-button" href="#join">
-              Start with us
+              Step into FLIHYE
             </a>
             <a className="ghost-button" href="#experiences">
               <IconPlay />
-              Discover the vibe
+              Catch the energy
             </a>
           </div>
           <dl className="hero-stats">
             <div>
-              <dt>Sunrise Strides</dt>
-              <dd>Every Saturday • Canary Hill</dd>
+              <dt>Midnight Strides</dt>
+              <dd>Fridays • Old Town glow track</dd>
             </div>
             <div>
-              <dt>City Loop</dt>
-              <dd>Mid-week tempo through Hazaribagh’s core</dd>
+              <dt>Skyline Circuits</dt>
+              <dd>Wednesdays • Rooftop HIIT + ride mashups</dd>
             </div>
           </dl>
         </div>
         <div className="hero-visual" role="presentation" aria-hidden="true">
-          <div className="hero-card run">Run Crew</div>
-          <div className="hero-card ride">Ride Outs</div>
-          <div className="hero-card train">Strength Pods</div>
+          <div className="hero-card run">Street Rush</div>
+          <div className="hero-card ride">Night Wheels</div>
+          <div className="hero-card train">Underpass Power</div>
         </div>
       </div>
     </section>

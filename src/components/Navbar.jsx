@@ -26,9 +26,9 @@ export default function Navbar() {
     <header className="navbar">
       <nav className="container">
         <div className="nav-inner">
-          <a href="#top" className="logo" aria-label="LOCAL MILES home">
-            <span>LOCAL</span>
-            <span>MILES</span>
+          <a href="#top" className="logo" aria-label="FLIHYE home">
+            <span>FLI</span>
+            <span>HYE</span>
           </a>
 
           <button
@@ -49,7 +49,7 @@ export default function Navbar() {
               </a>
             ))}
             <a className="cta" href="#join" onClick={() => setOpen(false)}>
-              Register Free
+              Claim a Drop-in
             </a>
           </div>
         </div>

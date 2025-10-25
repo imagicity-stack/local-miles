@@ -30,15 +30,15 @@ export default function Join() {
       <div className="container join-grid">
         <div className="join-copy">
           <span className="section-heading">Join the crew</span>
-          <h2 className="section-title">Register free &amp; claim your first session</h2>
+          <h2 className="section-title">Register free &amp; lock in your first drop</h2>
           <p className="section-description">
-            We&apos;ll reach out with the next run card, gear partners, and details on the
-            upcoming cycling and mobility pilots.
+            Slide your details in and we&apos;ll ping over the next FLIHYE run card, limited
+            merch alerts, and invites to pilot labs across the city.
           </p>
           <ul className="join-perks">
-            <li>Curated routes &amp; pacing pods</li>
-            <li>Strength + mobility add-ons</li>
-            <li>Local music, chai, and community</li>
+            <li>Glow-marked routes &amp; pacer tiers</li>
+            <li>Hybrid ride + strength residencies</li>
+            <li>Community DJs, art collabs, and chai cooldowns</li>
           </ul>
         </div>
         <form className="join-form" onSubmit={handleSubmit}>
@@ -84,9 +84,9 @@ export default function Join() {
             />
           </label>
           <button type="submit" className="cta-button" disabled={submitted}>
-            {submitted ? 'We got you! 💥' : 'Submit &amp; connect'}
+            {submitted ? 'Stay tuned ⚡' : 'Submit &amp; connect'}
           </button>
-          <p className="form-caption">*We respect your inbox and only send essentials.</p>
+          <p className="form-caption">*We respect your inbox and only ship the essentials.</p>
         </form>
       </div>
     </section>

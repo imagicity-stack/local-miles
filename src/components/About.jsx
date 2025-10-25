@@ -1,18 +1,18 @@
 const pillars = [
   {
-    title: 'City-rooted routes',
+    title: 'Electric city routes',
     description:
-      'From the leafy stretches of Canary Hill to the buzz of Boddom Bazaar, we chart routes that showcase Hazaribagh’s texture and invite all paces.'
+      'Neon-marked loops across Old Town alleys, market murals, and rooftop ramps keep the crew energized and street-safe for every pace.'
   },
   {
-    title: 'Multi-sport future',
+    title: 'Hybrid training labs',
     description:
-      'We are gearing up to host cycling rides, mobility labs, and seasonal trail treks—because movement is more than miles on foot.'
+      'Run + ride mashups, stair tempo stacks, and mobility drop-ins build power that moves from asphalt to skybridges and back again.'
   },
   {
-    title: 'Community-first culture',
+    title: 'Culture-coded community',
     description:
-      'Expect local playlists, chai cooldowns, and peer-led mentoring that keeps the atmosphere warm and inclusive.'
+      'Expect collaborative playlists, local art collabs, and mentors who translate big-city swagger into inclusive momentum.'
   }
 ];
 
@@ -21,13 +21,12 @@ export default function About() {
     <section id="about" className="about">
       <div className="container">
         <div className="about-intro">
-          <span className="section-heading">Why LOCAL MILES</span>
-          <h2 className="section-title">An urban crew shaped by Hazaribagh</h2>
+          <span className="section-heading">Why FLIHYE</span>
+          <h2 className="section-title">An urban collective wired by Hazaribagh</h2>
           <p className="section-description">
-            Built by locals who grew up sprinting between red-brick campuses and lush trails,
-            LOCAL MILES is a basecamp for people who want to move better together. Whether
-            you&apos;re lacing up for the first time or leveling up for races, we celebrate the
-            journey.
+            Born from late-night stair sprints and sunrise chai, FLIHYE brings city dreamers,
+            students, founders, and first-timers into one kinetic lane. We champion bold,
+            accessible movement so you can plug in, power up, and stay in flow.
           </p>
         </div>
         <div className="card-grid cols-3 about-grid">

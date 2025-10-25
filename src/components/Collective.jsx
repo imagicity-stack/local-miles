@@ -1,18 +1,21 @@
 const pathways = [
   {
-    label: 'Run Labs',
-    summary: 'Interval and endurance plans coached by community mentors.',
-    detail: 'Track nights at Indira Gandhi Stadium and form-focused drills for every level.'
+    label: 'Concrete Intervals',
+    summary: 'LED-paced run sessions that sync breath with beat drops.',
+    detail:
+      'Custom tempo playlists, projection-mapped cues, and community pacers dial in speedwork that still feels like art.'
   },
   {
-    label: 'Ride Outs',
-    summary: 'City explorations on wheels with safety marshals and pit stops.',
-    detail: 'Spin through Domchanch Road, test climbs, and learn maintenance basics.'
+    label: 'Chrome Rides',
+    summary: 'Group rides carving through skyline silhouettes and sunrise smog.',
+    detail:
+      'Rolling bike checks, marshal-led safety briefings, and rooftop cooldowns keep every rider locked into the city pulse.'
   },
   {
-    label: 'Mobility Pods',
-    summary: 'Strength and mobility stacks to prevent niggles and fuel progress.',
-    detail: 'Functional circuits, yoga-inspired resets, and recovery chats over local chai.'
+    label: 'Strength Bays',
+    summary: 'Underpass strength pods for power, balance, and resilience.',
+    detail:
+      'Modular rigs, mobility residencies, and recovery corners help you level up without burning out.'
   }
 ];
 
@@ -24,9 +27,9 @@ export default function Collective() {
           <span className="section-heading">What we&apos;re building</span>
           <h2 className="section-title">A collective for every kind of mover</h2>
           <p className="section-description">
-            We are designing sessions that keep you inspired all week long. Plug into any
-            pathway or float between them as we grow into cycling, strength, and adventure
-            offerings across Hazaribagh.
+            Our programming keeps urban athletes energized all week. Drop into one pathway
+            or float between them as FLIHYE expands across cycling, strength, and creative
+            movement residencies throughout Hazaribagh.
           </p>
         </div>
         <div className="collective-grid">
